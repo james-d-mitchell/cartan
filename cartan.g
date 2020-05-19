@@ -110,3 +110,12 @@ MyCartanMatrix := function(S)
   od;
   return mat;
 end;
+
+Where x is h or k.
+
+Assuming that h belongs to stabiliser of ImageSetOfTransformation(rep);
+
+LambdaPerm(S)(rep, rep * h);
+
+Assuming that k belongs to stabiliser of KernelOfTransformation(rep);
+LambdaPerm(S)(rep, k * rep);
